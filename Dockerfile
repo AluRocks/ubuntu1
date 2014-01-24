@@ -30,6 +30,4 @@ FROM ubuntu
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
 
-echo "Installing ruby 1.9.3"
-run apt-get install ruby1.9.3
-
+echo "hello world"
